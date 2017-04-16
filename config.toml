@@ -7,7 +7,7 @@ footnotereturnlinkcontents = "<sup>^</sup>"
 
 # Make it easy for github pages
 publishDir = "docs"
-
+relativeurl = true
 
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
@@ -162,12 +162,12 @@ defaultContentLanguageInSubdir = false
 [[menu.main]]
   name = "Publications"
   url = "#publications_selected"
-  weight = 4
+  weight = 3
 
 [[menu.main]]
   name = "Posts"
   url = "#posts"
-  weight = 3
+  weight = 4
 
 [[menu.main]]
   name = "Projects"
