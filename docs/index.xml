@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sheng Feng on Sheng Feng</title>
-    <link>http://sfeng77.github.io/blog/</link>
+    <link>https://sfeng77.github.io/blog/</link>
     <description>Recent content in Sheng Feng on Sheng Feng</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,11 +11,119 @@
     <atom:link href="/blog/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Build a site like this using Blogdown and Github</title>
+      <link>https://sfeng77.github.io/blog/post/2017-04-16-buildsite/</link>
+      <pubDate>Sun, 16 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sfeng77.github.io/blog/post/2017-04-16-buildsite/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/rstudio/blogdown&#34; target=&#34;_blank&#34;&gt;Blogdown&lt;/a&gt; is a R package that generates static websites using &lt;a href=&#34;http://rmarkdown.rstudio.com&#34; target=&#34;_blank&#34;&gt;R Markdown&lt;/a&gt; and &lt;a href=&#34;https://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt;. As a R user myself I already R Markdown to generate reproducible reports, so when I want to build a personal site I quickly adopted this.
+Here I will cover how I build this site and get it on github.&lt;/p&gt;
+
+&lt;h2 id=&#34;getting-started&#34;&gt;Getting started&lt;/h2&gt;
+
+&lt;p&gt;First you need to install &lt;a href=&#34;https://cran.r-project.org&#34; target=&#34;_blank&#34;&gt;R&lt;/a&gt; and  &lt;a href=&#34;https://www.rstudio.com&#34; target=&#34;_blank&#34;&gt;RStudio&lt;/a&gt;. Then you can install &lt;a href=&#34;https://cran.r-project.org/web/packages/devtools/index.html&#34; target=&#34;_blank&#34;&gt;devtools&lt;/a&gt; and blogdown by
+putting these in the R console inside RStudio:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;install.packages(&amp;quot;devtools&amp;quot;)
+devtools::install_github(&#39;rstudio/blogdown&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;get-your-github-repo-ready&#34;&gt;Get your github repo ready&lt;/h2&gt;
+
+&lt;p&gt;In your github, make a repo named &lt;code&gt;blog&lt;/code&gt;, and do NOT initialized it with readme. In RStudio, create a new project by File -&amp;gt; New Project -&amp;gt; Version -&amp;gt; Git, put your &lt;code&gt;blog&lt;/code&gt; repo URL in the box, name your local directory and select the path. Hit create Project button.&lt;/p&gt;
+
+&lt;h2 id=&#34;build-the-site&#34;&gt;Build the site&lt;/h2&gt;
+
+&lt;p&gt;Your RStudio should automatically set its working directory properly. You can now initialize a site with:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;blogdown::new_site(theme = &amp;quot;gcushen/hugo-academic&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The &lt;code&gt;theme&lt;/code&gt; parameter is optional here, and you can look for more themes in the &lt;a href=&#34;http://themes.gohugo.io&#34; target=&#34;_blank&#34;&gt;hugo gallary&lt;/a&gt;. However, I found that things may get messy if you choose to install/change themes later, so I would suggest picking a theme before you start and stick with it, for now at least.&lt;/p&gt;
+
+&lt;p&gt;Now you have a working local site, and a preview is available in the Viewer pane.&lt;/p&gt;
+
+&lt;h2 id=&#34;customizing-settings&#34;&gt;Customizing settings&lt;/h2&gt;
+
+&lt;p&gt;Open &lt;code&gt;config.toml&lt;/code&gt; and add the following line:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;publishDir = &amp;quot;docs&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This is to make sure the html files get generated into the &lt;code&gt;docs&lt;/code&gt; directory, and it&amp;rsquo;ll make things easier to get it hosted on github. If you choose to use the &lt;code&gt;hugo-academic&lt;/code&gt; theme, you also need to set the &lt;code&gt;baseurl&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;baseurl = &amp;quot;https://YOUR-USER-NAME.github.io/blog/&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;There is a ton of other parameters in &lt;code&gt;config.toml&lt;/code&gt;, but they should be self-explanatory once you get the site going.&lt;/p&gt;
+
+&lt;p&gt;You can now build your site with&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;blogdown::build_site(local = FALSE, method = &amp;quot;html_encoded&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and commit it to your github repo using either the built-in version control tool or any other way you like.&lt;/p&gt;
+
+&lt;p&gt;Go to your github repo, settings, and choose &lt;code&gt;master branch /docs folder&lt;/code&gt; under GitHub Pages panel. Save it, and your blog should be able to go at &lt;code&gt;https://YOUR-USER-NAME.github.io/blog/&lt;/code&gt; !&lt;/p&gt;
+
+&lt;h2 id=&#34;adding-redirection-from-personal-page&#34;&gt;Adding redirection from personal page&lt;/h2&gt;
+
+&lt;p&gt;If you want your blog to be available at &lt;code&gt;https://YOUR-USER-NAME.github.io/&lt;/code&gt;, there is another few steps to go. Head over to github again and create a repo named &lt;code&gt;YOUR-USER-NAME.github.io&lt;/code&gt;, and clone it into any local copy.&lt;/p&gt;
+
+&lt;p&gt;Add a &lt;code&gt;index.html&lt;/code&gt; that redirects the visitor to &lt;code&gt;https://YOUR-USER-NAME.github.io/blog/&lt;/code&gt;. Here is my (shamelessly copied) version:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;!DOCTYPE HTML&amp;gt;
+&amp;lt;html lang=&amp;quot;en-US&amp;quot;&amp;gt;
+    &amp;lt;head&amp;gt;
+        &amp;lt;meta charset=&amp;quot;UTF-8&amp;quot;&amp;gt;
+        &amp;lt;meta http-equiv=&amp;quot;refresh&amp;quot; content=&amp;quot;1; url=https://sfeng77.github.io/blog/&amp;quot;&amp;gt;
+        &amp;lt;script type=&amp;quot;text/javascript&amp;quot;&amp;gt;
+            window.location.href = &amp;quot;https://sfeng77.github.io/blog/&amp;quot;
+        &amp;lt;/script&amp;gt;
+        &amp;lt;title&amp;gt;Page Redirection&amp;lt;/title&amp;gt;
+    &amp;lt;/head&amp;gt;
+    &amp;lt;body&amp;gt;
+        &amp;lt;!-- Note: don&#39;t tell people to `click` the link, just tell them that it is a link. --&amp;gt;
+        If you are not redirected automatically, follow this &amp;lt;a href=&#39;https://sfeng77.github.io/blog/&#39;&amp;gt;link to my blog&amp;lt;/a&amp;gt;.
+    &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Commit and push it, and it should work out in a little bit.&lt;/p&gt;
+
+&lt;h2 id=&#34;patience-is-a-virtue&#34;&gt;Patience is a virtue&lt;/h2&gt;
+
+&lt;p&gt;Sometimes it&amp;rsquo;ll take a while before the changes are reflected on github pages.&lt;/p&gt;
+
+&lt;h2 id=&#34;adding-changing-deleting-content&#34;&gt;Adding/Changing/Deleting content&lt;/h2&gt;
+
+&lt;p&gt;You can add content by adding markdown or R Makrdown into the subdirectories in &lt;code&gt;content&lt;/code&gt; directory. There are a bunch of examples that you can follow. You can also use&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;blogdown::new_post(&amp;quot;POST-TITLE&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The academia themed homepage is built of widgets, and you can remove the widgets you don&amp;rsquo;t like by deleting the corresponding &lt;code&gt;md&lt;/code&gt; file from &lt;code&gt;content/home/&lt;/code&gt;. If you want to delete a specific post, just remove it from &lt;code&gt;content/post&lt;/code&gt;. The images you want to referece should be in &lt;code&gt;static/img&lt;/code&gt; directory.&lt;/p&gt;
+
+&lt;p&gt;After you&amp;rsquo;ve made the changes, build the site and push it to github. Have fun with it!&lt;/p&gt;
+
+&lt;h2 id=&#34;some-more-reference&#34;&gt;Some more Reference&lt;/h2&gt;
+
+&lt;p&gt;This is where I learned to get github pages working:
+&lt;a href=&#34;http://applyr.blogspot.com/2017/01/blogging-about-r-from-r-studio.html&#34; target=&#34;_blank&#34;&gt;http://applyr.blogspot.com/2017/01/blogging-about-r-from-r-studio.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;A (work-in-progress) reference of blogdown:
+&lt;a href=&#34;https://bookdown.org/yihui/blogdown/&#34; target=&#34;_blank&#34;&gt;https://bookdown.org/yihui/blogdown/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>GeauxCTQMC</title>
-      <link>http://sfeng77.github.io/blog/project/cthyb/</link>
+      <link>https://sfeng77.github.io/blog/project/cthyb/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://sfeng77.github.io/blog/project/cthyb/</guid>
+      <guid>https://sfeng77.github.io/blog/project/cthyb/</guid>
       <description>
 
 &lt;p&gt;This project is sponsered by LA-SIGMA.&lt;/p&gt;
@@ -44,10 +152,10 @@
     
     <item>
       <title>GeauxIsing</title>
-      <link>http://sfeng77.github.io/blog/project/geauxising/</link>
+      <link>https://sfeng77.github.io/blog/project/geauxising/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://sfeng77.github.io/blog/project/geauxising/</guid>
+      <guid>https://sfeng77.github.io/blog/project/geauxising/</guid>
       <description>
 
 &lt;p&gt;This project is sponsered by LA-SIGMA.&lt;/p&gt;
@@ -76,10 +184,10 @@
     
     <item>
       <title>Krylov</title>
-      <link>http://sfeng77.github.io/blog/project/krylov/</link>
+      <link>https://sfeng77.github.io/blog/project/krylov/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://sfeng77.github.io/blog/project/krylov/</guid>
+      <guid>https://sfeng77.github.io/blog/project/krylov/</guid>
       <description>
 
 &lt;p&gt;This project is sponsered by LA-SIGMA.&lt;/p&gt;
@@ -113,10 +221,10 @@ H is a sparse matrix that represents the Kanamori Hamiltonian in the CTQMC solve
     
     <item>
       <title>Getting started with the Academic framework for Hugo</title>
-      <link>http://sfeng77.github.io/blog/post/getting-started/</link>
+      <link>https://sfeng77.github.io/blog/post/getting-started/</link>
       <pubDate>Wed, 20 Apr 2016 12:00:00 +0000</pubDate>
       
-      <guid>http://sfeng77.github.io/blog/post/getting-started/</guid>
+      <guid>https://sfeng77.github.io/blog/post/getting-started/</guid>
       <description>
 
 &lt;p&gt;The Academic framework enables you to easily create a beautifully simple personal or academic website using the &lt;a href=&#34;https://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; static site generator.&lt;/p&gt;
@@ -127,7 +235,7 @@ H is a sparse matrix that represents the Kanamori Hamiltonian in the CTQMC solve
 &lt;li&gt;Easily manage your homepage, blog posts, publications, talks, and projects&lt;/li&gt;
 &lt;li&gt;Configurable widgets available for Biography, Publications, Projects, News/Blog, Talks, and Contact&lt;/li&gt;
 &lt;li&gt;Need a different section? Just use the Custom widget!&lt;/li&gt;
-&lt;li&gt;Write in &lt;a href=&#34;http://sfeng77.github.io/blog/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;Markdown&lt;/a&gt; for easy formatting and code highlighting, with &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34;&gt;LaTeX&lt;/a&gt; for mathematical expressions&lt;/li&gt;
+&lt;li&gt;Write in &lt;a href=&#34;https://sfeng77.github.io/blog/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;Markdown&lt;/a&gt; for easy formatting and code highlighting, with &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34;&gt;LaTeX&lt;/a&gt; for mathematical expressions&lt;/li&gt;
 &lt;li&gt;Social/academic network linking, &lt;a href=&#34;https://analytics.google.com&#34; target=&#34;_blank&#34;&gt;Google Analytics&lt;/a&gt;, and &lt;a href=&#34;https://disqus.com&#34; target=&#34;_blank&#34;&gt;Disqus&lt;/a&gt; comments&lt;/li&gt;
 &lt;li&gt;Responsive and mobile friendly&lt;/li&gt;
 &lt;li&gt;Simple and refreshing one page design&lt;/li&gt;
@@ -191,15 +299,15 @@ cd my_website
 
 &lt;h3 id=&#34;customize-the-homepage&#34;&gt;Customize the homepage&lt;/h3&gt;
 
-&lt;p&gt;Refer to our guide on using &lt;a href=&#34;http://sfeng77.github.io/blog/post/widgets/&#34; target=&#34;_blank&#34;&gt;widgets&lt;/a&gt; to customize your homepage.&lt;/p&gt;
+&lt;p&gt;Refer to our guide on using &lt;a href=&#34;https://sfeng77.github.io/blog/post/widgets/&#34; target=&#34;_blank&#34;&gt;widgets&lt;/a&gt; to customize your homepage.&lt;/p&gt;
 
 &lt;h3 id=&#34;add-your-content&#34;&gt;Add your content&lt;/h3&gt;
 
-&lt;p&gt;Refer to our guide on &lt;a href=&#34;http://sfeng77.github.io/blog/post/managing-content/&#34; target=&#34;_blank&#34;&gt;managing content&lt;/a&gt; to create your own publications, blog posts, talks, and projects.&lt;/p&gt;
+&lt;p&gt;Refer to our guide on &lt;a href=&#34;https://sfeng77.github.io/blog/post/managing-content/&#34; target=&#34;_blank&#34;&gt;managing content&lt;/a&gt; to create your own publications, blog posts, talks, and projects.&lt;/p&gt;
 
 &lt;h3 id=&#34;remove-unused-widgets-and-pages&#34;&gt;Remove unused widgets and pages&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://sfeng77.github.io/blog/post/managing-content/#removing-content&#34; target=&#34;_blank&#34;&gt;How to remove unused widgets and content pages&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://sfeng77.github.io/blog/post/managing-content/#removing-content&#34; target=&#34;_blank&#34;&gt;How to remove unused widgets and content pages&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3 id=&#34;customization-upgrading&#34;&gt;Customization &amp;amp; Upgrading&lt;/h3&gt;
 
@@ -303,10 +411,10 @@ $ git log --pretty=oneline --abbrev-commit --decorate HEAD..upstream/master
     
     <item>
       <title>Customizing the homepage with widgets</title>
-      <link>http://sfeng77.github.io/blog/post/widgets/</link>
+      <link>https://sfeng77.github.io/blog/post/widgets/</link>
       <pubDate>Wed, 20 Apr 2016 11:00:00 +0000</pubDate>
       
-      <guid>http://sfeng77.github.io/blog/post/widgets/</guid>
+      <guid>https://sfeng77.github.io/blog/post/widgets/</guid>
       <description>
 
 &lt;p&gt;Homepage widgets display as sections on the homepage. They can be enabled/disabled and configured as desired. Academic has the following widgets available to use:&lt;/p&gt;
@@ -369,15 +477,15 @@ $ git log --pretty=oneline --abbrev-commit --decorate HEAD..upstream/master
     
     <item>
       <title>Managing content</title>
-      <link>http://sfeng77.github.io/blog/post/managing-content/</link>
+      <link>https://sfeng77.github.io/blog/post/managing-content/</link>
       <pubDate>Wed, 20 Apr 2016 11:00:00 +0000</pubDate>
       
-      <guid>http://sfeng77.github.io/blog/post/managing-content/</guid>
-      <description>&lt;p&gt;This is a brief guide to managing content with the Academic framework. Content can include publications, projects, talks, and news/blog articles. After you have read this guide about creating and managing content, you may also be interested to learn about &lt;a href=&#34;http://sfeng77.github.io/blog/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;writing content with Markdown, LaTeX, and Shortcodes&lt;/a&gt;.&lt;/p&gt;
+      <guid>https://sfeng77.github.io/blog/post/managing-content/</guid>
+      <description>&lt;p&gt;This is a brief guide to managing content with the Academic framework. Content can include publications, projects, talks, and news/blog articles. After you have read this guide about creating and managing content, you may also be interested to learn about &lt;a href=&#34;https://sfeng77.github.io/blog/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;writing content with Markdown, LaTeX, and Shortcodes&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;To enable LaTeX math rendering for a page, you should include &lt;code&gt;math = true&lt;/code&gt; in the page&amp;rsquo;s &lt;code&gt;+++&lt;/code&gt; preamble, as demonstrated in the included example site. Otherwise, to enable math on the homepage or for all pages, you must globally set &lt;code&gt;math = true&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p&gt;To disable source code highlighting by default for all pages, set &lt;code&gt;highlight = false&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt;. You can then enable source code highlighting only on pages that need it by setting &lt;code&gt;highlight = true&lt;/code&gt; in that page&amp;rsquo;s preamble. See the &lt;a href=&#34;http://sfeng77.github.io/blog/post/writing-markdown-latex/#code-highlighting&#34; target=&#34;_blank&#34;&gt;code-highlighting docs&lt;/a&gt; for more details.&lt;/p&gt;
+&lt;p&gt;To disable source code highlighting by default for all pages, set &lt;code&gt;highlight = false&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt;. You can then enable source code highlighting only on pages that need it by setting &lt;code&gt;highlight = true&lt;/code&gt; in that page&amp;rsquo;s preamble. See the &lt;a href=&#34;https://sfeng77.github.io/blog/post/writing-markdown-latex/#code-highlighting&#34; target=&#34;_blank&#34;&gt;code-highlighting docs&lt;/a&gt; for more details.&lt;/p&gt;
 
 &lt;p&gt;To display a featured image in content page headers, the parameters below can be inserted towards the end of a page&amp;rsquo;s &lt;code&gt;+++&lt;/code&gt; preamble. It is assumed that the image is located in your &lt;code&gt;static/img/&lt;/code&gt; folder, so the full path in the example below will be &lt;code&gt;static/img/headers/getting-started.png&lt;/code&gt;. The &lt;code&gt;caption&lt;/code&gt; parameter can be used to write an image caption or credit.&lt;/p&gt;
 
@@ -516,10 +624,10 @@ Below is an automatically generated list of all my blog posts!
     
     <item>
       <title>Writing content with Markdown, LaTeX, and Shortcodes</title>
-      <link>http://sfeng77.github.io/blog/post/writing-markdown-latex/</link>
+      <link>https://sfeng77.github.io/blog/post/writing-markdown-latex/</link>
       <pubDate>Wed, 20 Apr 2016 10:00:00 +0000</pubDate>
       
-      <guid>http://sfeng77.github.io/blog/post/writing-markdown-latex/</guid>
+      <guid>https://sfeng77.github.io/blog/post/writing-markdown-latex/</guid>
       <description>&lt;p&gt;Content can be written using &lt;a href=&#34;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&#34; target=&#34;_blank&#34;&gt;Markdown&lt;/a&gt;, &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34;&gt;LaTeX math&lt;/a&gt;, and &lt;a href=&#34;http://gohugo.io/extras/shortcodes/&#34; target=&#34;_blank&#34;&gt;Hugo Shortcodes&lt;/a&gt;. Additionally, HTML may be used for advanced formatting. This article gives an overview of the most common formatting options.&lt;/p&gt;
 
 &lt;h2 id=&#34;sub-headings&#34;&gt;Sub-headings&lt;/h2&gt;
@@ -722,7 +830,7 @@ print(&amp;quot;You entered: {}&amp;quot;.format(input_string_var))
 
 &lt;p&gt;If the &lt;code&gt;highlight_languages&lt;/code&gt; option is set, then the corresponding javascript files will be served from the &lt;a href=&#34;https://cdnjs.com/libraries/highlight.js/&#34; target=&#34;_blank&#34;&gt;cdnjs server&lt;/a&gt;. To see a list of available languages, visit the &lt;a href=&#34;https://cdnjs.com/libraries/highlight.js/&#34; target=&#34;_blank&#34;&gt;cdnjs page&lt;/a&gt; and search for links with the word &amp;ldquo;languages&amp;rdquo;.&lt;/p&gt;
 
-&lt;p&gt;The &lt;code&gt;highlight_languages&lt;/code&gt; option provides an easy and convenient way to include support for additional languages to be severed from a CDN. If serving unmodified files from cdnjs doesn&amp;rsquo;t meet your needs, you can include javascript files for additional language support via one of the methods described in the &lt;a href=&#34;http://sfeng77.github.io/blog/post/getting-started/#third-party-and-local-scripts-js&#34; target=&#34;_blank&#34;&gt;getting started guide&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;highlight_languages&lt;/code&gt; option provides an easy and convenient way to include support for additional languages to be severed from a CDN. If serving unmodified files from cdnjs doesn&amp;rsquo;t meet your needs, you can include javascript files for additional language support via one of the methods described in the &lt;a href=&#34;https://sfeng77.github.io/blog/post/getting-started/#third-party-and-local-scripts-js&#34; target=&#34;_blank&#34;&gt;getting started guide&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h4 id=&#34;option-highlight-style&#34;&gt;Option &lt;code&gt;highlight_style&lt;/code&gt;&lt;/h4&gt;
 
@@ -868,10 +976,10 @@ Here&#39;s some important information...
     
     <item>
       <title>Hello R Markdown</title>
-      <link>http://sfeng77.github.io/blog/post/2015-07-23-r-rmarkdown/</link>
+      <link>https://sfeng77.github.io/blog/post/2015-07-23-r-rmarkdown/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
       
-      <guid>http://sfeng77.github.io/blog/post/2015-07-23-r-rmarkdown/</guid>
+      <guid>https://sfeng77.github.io/blog/post/2015-07-23-r-rmarkdown/</guid>
       <description>&lt;!-- BLOGDOWN-HEAD --&gt;
 &lt;!-- /BLOGDOWN-HEAD --&gt;
 
@@ -910,7 +1018,7 @@ pie(
   init.angle = -50, border = NA
 )&lt;/code&gt;&lt;/pre&gt;
 &lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:pie&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;http://sfeng77.github.io/blog/post/2015-07-23-r-rmarkdown/figures/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
+&lt;img src=&#34;https://sfeng77.github.io/blog/post/2015-07-23-r-rmarkdown/figures/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figure 1: A fancy pie chart.
 &lt;/p&gt;
@@ -921,22 +1029,22 @@ Figure 1: A fancy pie chart.
     
     <item>
       <title>Parallel Tempering Simulation of the three-dimensional Edwards-Anderson Model with Compact Asynchronous Multispin Coding on GPU</title>
-      <link>http://sfeng77.github.io/blog/publication/gpu-pt/</link>
+      <link>https://sfeng77.github.io/blog/publication/gpu-pt/</link>
       <pubDate>Sat, 24 May 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://sfeng77.github.io/blog/publication/gpu-pt/</guid>
+      <guid>https://sfeng77.github.io/blog/publication/gpu-pt/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Migrate from Jekyll to Hugo</title>
-      <link>http://sfeng77.github.io/blog/post/migrate-from-jekyll/</link>
+      <link>https://sfeng77.github.io/blog/post/migrate-from-jekyll/</link>
       <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://sfeng77.github.io/blog/post/migrate-from-jekyll/</guid>
+      <guid>https://sfeng77.github.io/blog/post/migrate-from-jekyll/</guid>
       <description>
 
-&lt;p&gt;Here are a few tips for migrating an existing website from Jekyll to Hugo. These tips can be applied in conjunction with following Hugo Academic&amp;rsquo;s &lt;a href=&#34;http://sfeng77.github.io/blog/post/getting-started/&#34; target=&#34;_blank&#34;&gt;getting started guide&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Here are a few tips for migrating an existing website from Jekyll to Hugo. These tips can be applied in conjunction with following Hugo Academic&amp;rsquo;s &lt;a href=&#34;https://sfeng77.github.io/blog/post/getting-started/&#34; target=&#34;_blank&#34;&gt;getting started guide&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&#34;move-static-content-to-static&#34;&gt;Move static content to &lt;code&gt;static&lt;/code&gt;&lt;/h2&gt;
 
