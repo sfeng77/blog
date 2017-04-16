@@ -77,12 +77,14 @@ Obviously you want to change all the `sfeng77` to your user name in there if you
 Sometimes it'll take a while before the changes are reflected on github pages.
 
 ## Adding/Changing/Deleting content
-You can add content by adding markdown or R Makrdown into the sub-directories in `content` directory. There are a bunch of examples that you can follow. You can also use 
+You can add content by adding markdown or R Markdown files into the sub-directories in `content` directory. There are a bunch of examples that you can follow. You can also use 
 ```
 blogdown::new_post("POST-TITLE")
 ```
 
 The academic themed homepage is built of widgets, and you can remove the widgets you don't like by deleting the corresponding `md` file from `content/home/`. If you want to delete a specific post, just remove it from `content/post`. The images you want to reference should be in `static/img` directory.   
+Use `blogdown:::serve_site()` to get a self-updating preview in the Viewer pane.
+
 
 After you've made the changes, **MAKE SURE** you build the site and push it to github. Have fun with it! 
 

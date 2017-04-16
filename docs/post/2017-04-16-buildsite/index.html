@@ -303,12 +303,13 @@ devtools::install_github('rstudio/blogdown')
 
 <h2 id="adding-changing-deleting-content">Adding/Changing/Deleting content</h2>
 
-<p>You can add content by adding markdown or R Makrdown into the sub-directories in <code>content</code> directory. There are a bunch of examples that you can follow. You can also use</p>
+<p>You can add content by adding markdown or R Markdown files into the sub-directories in <code>content</code> directory. There are a bunch of examples that you can follow. You can also use</p>
 
 <pre><code>blogdown::new_post(&quot;POST-TITLE&quot;)
 </code></pre>
 
-<p>The academic themed homepage is built of widgets, and you can remove the widgets you don&rsquo;t like by deleting the corresponding <code>md</code> file from <code>content/home/</code>. If you want to delete a specific post, just remove it from <code>content/post</code>. The images you want to reference should be in <code>static/img</code> directory.</p>
+<p>The academic themed homepage is built of widgets, and you can remove the widgets you don&rsquo;t like by deleting the corresponding <code>md</code> file from <code>content/home/</code>. If you want to delete a specific post, just remove it from <code>content/post</code>. The images you want to reference should be in <code>static/img</code> directory.<br />
+Use <code>blogdown:::serve_site()</code> to get a self-updating preview in the Viewer pane.</p>
 
 <p>After you&rsquo;ve made the changes, <strong>MAKE SURE</strong> you build the site and push it to github. Have fun with it!</p>
 

@@ -99,12 +99,13 @@ devtools::install_github(&#39;rstudio/blogdown&#39;)
 
 &lt;h2 id=&#34;adding-changing-deleting-content&#34;&gt;Adding/Changing/Deleting content&lt;/h2&gt;
 
-&lt;p&gt;You can add content by adding markdown or R Makrdown into the sub-directories in &lt;code&gt;content&lt;/code&gt; directory. There are a bunch of examples that you can follow. You can also use&lt;/p&gt;
+&lt;p&gt;You can add content by adding markdown or R Markdown files into the sub-directories in &lt;code&gt;content&lt;/code&gt; directory. There are a bunch of examples that you can follow. You can also use&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;blogdown::new_post(&amp;quot;POST-TITLE&amp;quot;)
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;The academic themed homepage is built of widgets, and you can remove the widgets you don&amp;rsquo;t like by deleting the corresponding &lt;code&gt;md&lt;/code&gt; file from &lt;code&gt;content/home/&lt;/code&gt;. If you want to delete a specific post, just remove it from &lt;code&gt;content/post&lt;/code&gt;. The images you want to reference should be in &lt;code&gt;static/img&lt;/code&gt; directory.&lt;/p&gt;
+&lt;p&gt;The academic themed homepage is built of widgets, and you can remove the widgets you don&amp;rsquo;t like by deleting the corresponding &lt;code&gt;md&lt;/code&gt; file from &lt;code&gt;content/home/&lt;/code&gt;. If you want to delete a specific post, just remove it from &lt;code&gt;content/post&lt;/code&gt;. The images you want to reference should be in &lt;code&gt;static/img&lt;/code&gt; directory.&lt;br /&gt;
+Use &lt;code&gt;blogdown:::serve_site()&lt;/code&gt; to get a self-updating preview in the Viewer pane.&lt;/p&gt;
 
 &lt;p&gt;After you&amp;rsquo;ve made the changes, &lt;strong&gt;MAKE SURE&lt;/strong&gt; you build the site and push it to github. Have fun with it!&lt;/p&gt;
 
