@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data on Sheng Feng</title>
+    <link>https://sfeng77.github.io/blog/tags/data/</link>
+    <description>Recent content in Data on Sheng Feng</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Sheng Feng</copyright>
+    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/blog/tags/data/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Word Prediction</title>
+      <link>https://sfeng77.github.io/blog/project/wordprediction/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://sfeng77.github.io/blog/project/wordprediction/</guid>
+      <description>
+
+&lt;p&gt;This is the Capstone Project for Data Science Specialization by Johns Hopkins University on Coursera.&lt;/p&gt;
+
+&lt;h2 id=&#34;project-page&#34;&gt;Project Page&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://sfeng77.github.io/wordPrediction/capstone.html&#34; target=&#34;_blank&#34;&gt;https://sfeng77.github.io/wordPrediction/capstone.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;github-project&#34;&gt;Github Project&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/sfeng77/wordPrediction&#34; target=&#34;_blank&#34;&gt;https://github.com/sfeng77/wordPrediction&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
