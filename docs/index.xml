@@ -109,6 +109,13 @@ Use &lt;code&gt;blogdown:::serve_site()&lt;/code&gt; to get a self-updating prev
 
 &lt;p&gt;After you&amp;rsquo;ve made the changes, &lt;strong&gt;MAKE SURE&lt;/strong&gt; you build the site and push it to github. Have fun with it!&lt;/p&gt;
 
+&lt;h2 id=&#34;something-fails&#34;&gt;Something fails&lt;/h2&gt;
+
+&lt;p&gt;The most common mistake I&amp;rsquo;ve been making is&lt;br /&gt;
+* Not building the site after a local preview;&lt;br /&gt;
+* Not setting the &lt;code&gt;baseurl&lt;/code&gt; properly.&lt;br /&gt;
+So check those if your pages are not behaving.&lt;/p&gt;
+
 &lt;h2 id=&#34;some-more-reference&#34;&gt;Some more Reference&lt;/h2&gt;
 
 &lt;p&gt;This is where I learned to get github pages working:

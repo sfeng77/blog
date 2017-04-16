@@ -89,6 +89,12 @@ Use `blogdown:::serve_site()` to get a self-updating preview in the Viewer pane.
 After you've made the changes, **MAKE SURE** you build the site and push it to github. Have fun with it! 
 
 
+## Something fails
+The most common mistake I've been making is  
+* Not building the site after a local preview;  
+* Not setting the `baseurl` properly.   
+So check those if your pages are not behaving.
+
 ## Some more Reference
 This is where I learned to get github pages working:
 http://applyr.blogspot.com/2017/01/blogging-about-r-from-r-studio.html
