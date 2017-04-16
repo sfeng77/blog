@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications on Sheng Feng</title>
-    <link>/publication/</link>
+    <link>https://sfeng77.github.io/blog/publication/</link>
     <description>Recent content in Publications on Sheng Feng</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Sheng Feng</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/publication/" rel="self" type="application/rss+xml" />
+    <atom:link href="/blog/publication/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Parallel Tempering Simulation of the three-dimensional Edwards-Anderson Model with Compact Asynchronous Multispin Coding on GPU</title>
-      <link>/publication/gpu-pt/</link>
+      <link>https://sfeng77.github.io/blog/publication/gpu-pt/</link>
       <pubDate>Sat, 24 May 2014 00:00:00 +0000</pubDate>
       
-      <guid>/publication/gpu-pt/</guid>
+      <guid>https://sfeng77.github.io/blog/publication/gpu-pt/</guid>
       <description></description>
     </item>
     

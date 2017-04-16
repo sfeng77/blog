@@ -5,7 +5,7 @@
     
     <url>
     
-      <loc>/post/2017-04-16-buildsite/</loc>
+      <loc>https://sfeng77.github.io/blog/post/2017-04-16-buildsite/</loc>
       <lastmod>2017-04-16T00:00:00+00:00</lastmod>
     </url>
     
@@ -14,7 +14,7 @@
     
     <url>
     
-      <loc>/tags/academic/</loc>
+      <loc>https://sfeng77.github.io/blog/tags/academic/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -23,7 +23,7 @@
     
     <url>
     
-      <loc>/post/</loc>
+      <loc>https://sfeng77.github.io/blog/post/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -32,7 +32,7 @@
     
     <url>
     
-      <loc>/publication/</loc>
+      <loc>https://sfeng77.github.io/blog/publication/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -41,7 +41,7 @@
     
     <url>
     
-      <loc>/project/cthyb/</loc>
+      <loc>https://sfeng77.github.io/blog/project/cthyb/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     </url>
     
@@ -50,7 +50,7 @@
     
     <url>
     
-      <loc>/project/geauxising/</loc>
+      <loc>https://sfeng77.github.io/blog/project/geauxising/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     </url>
     
@@ -59,7 +59,7 @@
     
     <url>
     
-      <loc>/project/krylov/</loc>
+      <loc>https://sfeng77.github.io/blog/project/krylov/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     </url>
     
@@ -68,7 +68,7 @@
     
     <url>
     
-      <loc>/publication/gpu-pt/</loc>
+      <loc>https://sfeng77.github.io/blog/publication/gpu-pt/</loc>
       <lastmod>2014-05-24T00:00:00+00:00</lastmod>
     </url>
     
@@ -77,66 +77,7 @@
     
     <url>
     
-      <loc>/publication_types/2/</loc>
-      <lastmod>2014-05-24T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/categories/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/gpu/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/phi/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/physics/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/project/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication_types/</loc>
+      <loc>https://sfeng77.github.io/blog/publication_types/2/</loc>
       <lastmod>2014-05-24T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -146,7 +87,66 @@
     
     <url>
     
-      <loc>/tags/r/</loc>
+      <loc>https://sfeng77.github.io/blog/categories/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://sfeng77.github.io/blog/tags/gpu/</loc>
+      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://sfeng77.github.io/blog/tags/phi/</loc>
+      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://sfeng77.github.io/blog/tags/physics/</loc>
+      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://sfeng77.github.io/blog/project/</loc>
+      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://sfeng77.github.io/blog/publication_types/</loc>
+      <lastmod>2014-05-24T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://sfeng77.github.io/blog/categories/r/</loc>
       <lastmod>2017-04-16T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -156,7 +156,7 @@
     
     <url>
     
-      <loc>/categories/r/</loc>
+      <loc>https://sfeng77.github.io/blog/tags/r/</loc>
       <lastmod>2017-04-16T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -166,7 +166,7 @@
     
     <url>
     
-      <loc>/</loc>
+      <loc>https://sfeng77.github.io/blog/</loc>
       <lastmod>2017-04-15T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -176,7 +176,7 @@
     
     <url>
     
-      <loc>/tags/</loc>
+      <loc>https://sfeng77.github.io/blog/tags/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>

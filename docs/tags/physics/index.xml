@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Physics on Sheng Feng</title>
-    <link>/tags/physics/</link>
+    <link>https://sfeng77.github.io/blog/tags/physics/</link>
     <description>Recent content in Physics on Sheng Feng</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Sheng Feng</copyright>
     <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/physics/" rel="self" type="application/rss+xml" />
+    <atom:link href="/blog/tags/physics/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>GeauxCTQMC</title>
-      <link>/project/cthyb/</link>
+      <link>https://sfeng77.github.io/blog/project/cthyb/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/project/cthyb/</guid>
+      <guid>https://sfeng77.github.io/blog/project/cthyb/</guid>
       <description>
 
 &lt;p&gt;This project is sponsered by LA-SIGMA.&lt;/p&gt;
@@ -44,10 +44,10 @@
     
     <item>
       <title>GeauxIsing</title>
-      <link>/project/geauxising/</link>
+      <link>https://sfeng77.github.io/blog/project/geauxising/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/project/geauxising/</guid>
+      <guid>https://sfeng77.github.io/blog/project/geauxising/</guid>
       <description>
 
 &lt;p&gt;This project is sponsered by LA-SIGMA.&lt;/p&gt;
@@ -76,10 +76,10 @@
     
     <item>
       <title>Krylov</title>
-      <link>/project/krylov/</link>
+      <link>https://sfeng77.github.io/blog/project/krylov/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/project/krylov/</guid>
+      <guid>https://sfeng77.github.io/blog/project/krylov/</guid>
       <description>
 
 &lt;p&gt;This project is sponsered by LA-SIGMA.&lt;/p&gt;
