@@ -37,6 +37,9 @@ view = 1
   name = "Physics"
   tag = ".physics"
 
+[[filter]]
+  name = "Data Science"
+  tag = ".data"
 
 [[filter]]
   name = "Other"

@@ -9,7 +9,7 @@ title = "GeauxIsing"
 summary = "GPU Parallel Tempering Simulation of the 3D Edwards-Anderson Model."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-# image_preview = "bubbles.jpg"
+image_preview = "gpu.jpg"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`

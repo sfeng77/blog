@@ -38,4 +38,4 @@ weight = 1
 # Biography
 Sheng Feng is a Data Scientist, Computational Physicist, Programmer for Massively Parallel Computing.  
 He has more than 5 years of experience with C / CUDA / MPI / OpenMP, and data analysis with Python / R.  
-Looking for a software engineer / data scientist job.
+Looking for a Software Engineer / Data Scientist job.
