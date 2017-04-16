@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "http://sfeng77.github.io/blog/"
 title = "Sheng Feng"
 copyright = "&copy; 2017 Sheng Feng"
 theme = "hugo-academic"

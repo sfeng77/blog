@@ -5,7 +5,7 @@
     
     <url>
     
-      <loc>/tags/academic/</loc>
+      <loc>http://sfeng77.github.io/blog/tags/academic/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -14,7 +14,7 @@
     
     <url>
     
-      <loc>/post/</loc>
+      <loc>http://sfeng77.github.io/blog/post/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -23,7 +23,7 @@
     
     <url>
     
-      <loc>/publication/</loc>
+      <loc>http://sfeng77.github.io/blog/publication/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -32,7 +32,7 @@
     
     <url>
     
-      <loc>/project/cthyb/</loc>
+      <loc>http://sfeng77.github.io/blog/project/cthyb/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     </url>
     
@@ -41,7 +41,7 @@
     
     <url>
     
-      <loc>/project/geauxising/</loc>
+      <loc>http://sfeng77.github.io/blog/project/geauxising/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     </url>
     
@@ -50,7 +50,7 @@
     
     <url>
     
-      <loc>/project/krylov/</loc>
+      <loc>http://sfeng77.github.io/blog/project/krylov/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     </url>
     
@@ -59,7 +59,7 @@
     
     <url>
     
-      <loc>/post/getting-started/</loc>
+      <loc>http://sfeng77.github.io/blog/post/getting-started/</loc>
       <lastmod>2016-04-20T12:00:00+00:00</lastmod>
     </url>
     
@@ -68,7 +68,7 @@
     
     <url>
     
-      <loc>/post/widgets/</loc>
+      <loc>http://sfeng77.github.io/blog/post/widgets/</loc>
       <lastmod>2016-04-20T11:00:00+00:00</lastmod>
     </url>
     
@@ -77,7 +77,7 @@
     
     <url>
     
-      <loc>/post/managing-content/</loc>
+      <loc>http://sfeng77.github.io/blog/post/managing-content/</loc>
       <lastmod>2016-04-20T11:00:00+00:00</lastmod>
     </url>
     
@@ -86,7 +86,7 @@
     
     <url>
     
-      <loc>/post/writing-markdown-latex/</loc>
+      <loc>http://sfeng77.github.io/blog/post/writing-markdown-latex/</loc>
       <lastmod>2016-04-20T10:00:00+00:00</lastmod>
     </url>
     
@@ -95,7 +95,7 @@
     
     <url>
     
-      <loc>/post/2015-07-23-r-rmarkdown/</loc>
+      <loc>http://sfeng77.github.io/blog/post/2015-07-23-r-rmarkdown/</loc>
       <lastmod>2015-07-23T21:13:14-05:00</lastmod>
     </url>
     
@@ -104,7 +104,7 @@
     
     <url>
     
-      <loc>/publication/gpu-pt/</loc>
+      <loc>http://sfeng77.github.io/blog/publication/gpu-pt/</loc>
       <lastmod>2014-05-24T00:00:00+00:00</lastmod>
     </url>
     
@@ -113,7 +113,7 @@
     
     <url>
     
-      <loc>/post/migrate-from-jekyll/</loc>
+      <loc>http://sfeng77.github.io/blog/post/migrate-from-jekyll/</loc>
       <lastmod>2014-03-10T00:00:00+00:00</lastmod>
     </url>
     
@@ -122,7 +122,7 @@
     
     <url>
     
-      <loc>/publication_types/2/</loc>
+      <loc>http://sfeng77.github.io/blog/publication_types/2/</loc>
       <lastmod>2014-05-24T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -132,7 +132,7 @@
     
     <url>
     
-      <loc>/categories/</loc>
+      <loc>http://sfeng77.github.io/blog/categories/</loc>
       <priority>0</priority>
     </url>
     
@@ -141,7 +141,7 @@
     
     <url>
     
-      <loc>/tags/gpu/</loc>
+      <loc>http://sfeng77.github.io/blog/tags/gpu/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -151,7 +151,7 @@
     
     <url>
     
-      <loc>/tags/hugo/</loc>
+      <loc>http://sfeng77.github.io/blog/tags/hugo/</loc>
       <lastmod>2016-04-20T12:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -161,7 +161,7 @@
     
     <url>
     
-      <loc>/tags/jekyll/</loc>
+      <loc>http://sfeng77.github.io/blog/tags/jekyll/</loc>
       <lastmod>2014-03-10T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -171,7 +171,7 @@
     
     <url>
     
-      <loc>/tags/phi/</loc>
+      <loc>http://sfeng77.github.io/blog/tags/phi/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -181,7 +181,7 @@
     
     <url>
     
-      <loc>/tags/physics/</loc>
+      <loc>http://sfeng77.github.io/blog/tags/physics/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -191,7 +191,7 @@
     
     <url>
     
-      <loc>/tags/plot/</loc>
+      <loc>http://sfeng77.github.io/blog/tags/plot/</loc>
       <lastmod>2015-07-23T21:13:14-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -201,7 +201,7 @@
     
     <url>
     
-      <loc>/project/</loc>
+      <loc>http://sfeng77.github.io/blog/project/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -211,7 +211,7 @@
     
     <url>
     
-      <loc>/publication_types/</loc>
+      <loc>http://sfeng77.github.io/blog/publication_types/</loc>
       <lastmod>2014-05-24T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -221,7 +221,7 @@
     
     <url>
     
-      <loc>/categories/r/</loc>
+      <loc>http://sfeng77.github.io/blog/categories/r/</loc>
       <lastmod>2015-07-23T21:13:14-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -231,7 +231,7 @@
     
     <url>
     
-      <loc>/tags/r-markdown/</loc>
+      <loc>http://sfeng77.github.io/blog/tags/r-markdown/</loc>
       <lastmod>2015-07-23T21:13:14-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -241,7 +241,7 @@
     
     <url>
     
-      <loc>/tags/regression/</loc>
+      <loc>http://sfeng77.github.io/blog/tags/regression/</loc>
       <lastmod>2015-07-23T21:13:14-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -251,7 +251,7 @@
     
     <url>
     
-      <loc>/</loc>
+      <loc>http://sfeng77.github.io/blog/</loc>
       <lastmod>2017-04-15T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -261,7 +261,7 @@
     
     <url>
     
-      <loc>/tags/</loc>
+      <loc>http://sfeng77.github.io/blog/tags/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
