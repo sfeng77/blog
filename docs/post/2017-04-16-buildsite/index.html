@@ -245,7 +245,7 @@ devtools::install_github('rstudio/blogdown')
 <pre><code>blogdown::new_site(theme = &quot;gcushen/hugo-academic&quot;)
 </code></pre>
 
-<p>The <code>theme</code> parameter is optional here, and you can look for more themes in the <a href="http://themes.gohugo.io" target="_blank">hugo gallary</a>. However, I found that things may get messy if you choose to install/change themes later, so I would suggest picking a theme before you start and stick with it, for now at least.</p>
+<p>The <code>theme</code> parameter is optional here, and you can look for more themes in the <a href="http://themes.gohugo.io" target="_blank">hugo gallary</a>. However, I found that things may get messy if you choose to install/change themes later, so I would suggest picking a theme before you start and stick with it. The <a href="https://themes.gohugo.io/academic/" target="_blank">hugo-academic</a> theme suits my needs very well.</p>
 
 <p>Now you have a working local site, and a preview is available in the Viewer pane.</p>
 
@@ -303,12 +303,12 @@ devtools::install_github('rstudio/blogdown')
 
 <h2 id="adding-changing-deleting-content">Adding/Changing/Deleting content</h2>
 
-<p>You can add content by adding markdown or R Makrdown into the subdirectories in <code>content</code> directory. There are a bunch of examples that you can follow. You can also use</p>
+<p>You can add content by adding markdown or R Makrdown into the sub-directories in <code>content</code> directory. There are a bunch of examples that you can follow. You can also use</p>
 
 <pre><code>blogdown::new_post(&quot;POST-TITLE&quot;)
 </code></pre>
 
-<p>The academia themed homepage is built of widgets, and you can remove the widgets you don&rsquo;t like by deleting the corresponding <code>md</code> file from <code>content/home/</code>. If you want to delete a specific post, just remove it from <code>content/post</code>. The images you want to referece should be in <code>static/img</code> directory.</p>
+<p>The academic themed homepage is built of widgets, and you can remove the widgets you don&rsquo;t like by deleting the corresponding <code>md</code> file from <code>content/home/</code>. If you want to delete a specific post, just remove it from <code>content/post</code>. The images you want to reference should be in <code>static/img</code> directory.</p>
 
 <p>After you&rsquo;ve made the changes, <strong>MAKE SURE</strong> you build the site and push it to github. Have fun with it!</p>
 
@@ -319,6 +319,9 @@ devtools::install_github('rstudio/blogdown')
 
 <p>A (work-in-progress) reference of blogdown:
 <a href="https://bookdown.org/yihui/blogdown/" target="_blank">https://bookdown.org/yihui/blogdown/</a></p>
+
+<p>A reference of the academic theme:
+<a href="https://georgecushen.com/create-your-website-with-hugo/" target="_blank">https://georgecushen.com/create-your-website-with-hugo/</a></p>
 
     </div>
   </div>

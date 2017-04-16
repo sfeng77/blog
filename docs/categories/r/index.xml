@@ -41,7 +41,7 @@ devtools::install_github(&#39;rstudio/blogdown&#39;)
 &lt;pre&gt;&lt;code&gt;blogdown::new_site(theme = &amp;quot;gcushen/hugo-academic&amp;quot;)
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;The &lt;code&gt;theme&lt;/code&gt; parameter is optional here, and you can look for more themes in the &lt;a href=&#34;http://themes.gohugo.io&#34; target=&#34;_blank&#34;&gt;hugo gallary&lt;/a&gt;. However, I found that things may get messy if you choose to install/change themes later, so I would suggest picking a theme before you start and stick with it, for now at least.&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;theme&lt;/code&gt; parameter is optional here, and you can look for more themes in the &lt;a href=&#34;http://themes.gohugo.io&#34; target=&#34;_blank&#34;&gt;hugo gallary&lt;/a&gt;. However, I found that things may get messy if you choose to install/change themes later, so I would suggest picking a theme before you start and stick with it. The &lt;a href=&#34;https://themes.gohugo.io/academic/&#34; target=&#34;_blank&#34;&gt;hugo-academic&lt;/a&gt; theme suits my needs very well.&lt;/p&gt;
 
 &lt;p&gt;Now you have a working local site, and a preview is available in the Viewer pane.&lt;/p&gt;
 
@@ -99,12 +99,12 @@ devtools::install_github(&#39;rstudio/blogdown&#39;)
 
 &lt;h2 id=&#34;adding-changing-deleting-content&#34;&gt;Adding/Changing/Deleting content&lt;/h2&gt;
 
-&lt;p&gt;You can add content by adding markdown or R Makrdown into the subdirectories in &lt;code&gt;content&lt;/code&gt; directory. There are a bunch of examples that you can follow. You can also use&lt;/p&gt;
+&lt;p&gt;You can add content by adding markdown or R Makrdown into the sub-directories in &lt;code&gt;content&lt;/code&gt; directory. There are a bunch of examples that you can follow. You can also use&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;blogdown::new_post(&amp;quot;POST-TITLE&amp;quot;)
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;The academia themed homepage is built of widgets, and you can remove the widgets you don&amp;rsquo;t like by deleting the corresponding &lt;code&gt;md&lt;/code&gt; file from &lt;code&gt;content/home/&lt;/code&gt;. If you want to delete a specific post, just remove it from &lt;code&gt;content/post&lt;/code&gt;. The images you want to referece should be in &lt;code&gt;static/img&lt;/code&gt; directory.&lt;/p&gt;
+&lt;p&gt;The academic themed homepage is built of widgets, and you can remove the widgets you don&amp;rsquo;t like by deleting the corresponding &lt;code&gt;md&lt;/code&gt; file from &lt;code&gt;content/home/&lt;/code&gt;. If you want to delete a specific post, just remove it from &lt;code&gt;content/post&lt;/code&gt;. The images you want to reference should be in &lt;code&gt;static/img&lt;/code&gt; directory.&lt;/p&gt;
 
 &lt;p&gt;After you&amp;rsquo;ve made the changes, &lt;strong&gt;MAKE SURE&lt;/strong&gt; you build the site and push it to github. Have fun with it!&lt;/p&gt;
 
@@ -115,6 +115,9 @@ devtools::install_github(&#39;rstudio/blogdown&#39;)
 
 &lt;p&gt;A (work-in-progress) reference of blogdown:
 &lt;a href=&#34;https://bookdown.org/yihui/blogdown/&#34; target=&#34;_blank&#34;&gt;https://bookdown.org/yihui/blogdown/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;A reference of the academic theme:
+&lt;a href=&#34;https://georgecushen.com/create-your-website-with-hugo/&#34; target=&#34;_blank&#34;&gt;https://georgecushen.com/create-your-website-with-hugo/&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

@@ -26,7 +26,7 @@ Your RStudio should automatically set its working directory properly. You can no
 ```
 blogdown::new_site(theme = "gcushen/hugo-academic")
 ```
-The `theme` parameter is optional here, and you can look for more themes in the [hugo gallary](http://themes.gohugo.io). However, I found that things may get messy if you choose to install/change themes later, so I would suggest picking a theme before you start and stick with it, for now at least.
+The `theme` parameter is optional here, and you can look for more themes in the [hugo gallary](http://themes.gohugo.io). However, I found that things may get messy if you choose to install/change themes later, so I would suggest picking a theme before you start and stick with it. The [hugo-academic](https://themes.gohugo.io/academic/) theme suits my needs very well.
 
 Now you have a working local site, and a preview is available in the Viewer pane. 
 
@@ -77,12 +77,12 @@ Obviously you want to change all the `sfeng77` to your user name in there if you
 Sometimes it'll take a while before the changes are reflected on github pages.
 
 ## Adding/Changing/Deleting content
-You can add content by adding markdown or R Makrdown into the subdirectories in `content` directory. There are a bunch of examples that you can follow. You can also use 
+You can add content by adding markdown or R Makrdown into the sub-directories in `content` directory. There are a bunch of examples that you can follow. You can also use 
 ```
 blogdown::new_post("POST-TITLE")
 ```
 
-The academia themed homepage is built of widgets, and you can remove the widgets you don't like by deleting the corresponding `md` file from `content/home/`. If you want to delete a specific post, just remove it from `content/post`. The images you want to referece should be in `static/img` directory.   
+The academic themed homepage is built of widgets, and you can remove the widgets you don't like by deleting the corresponding `md` file from `content/home/`. If you want to delete a specific post, just remove it from `content/post`. The images you want to reference should be in `static/img` directory.   
 
 After you've made the changes, **MAKE SURE** you build the site and push it to github. Have fun with it! 
 
@@ -94,7 +94,8 @@ http://applyr.blogspot.com/2017/01/blogging-about-r-from-r-studio.html
 A (work-in-progress) reference of blogdown:
 https://bookdown.org/yihui/blogdown/
 
-
+A reference of the academic theme:
+https://georgecushen.com/create-your-website-with-hugo/
 
 
 
