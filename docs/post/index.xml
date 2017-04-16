@@ -91,7 +91,7 @@ devtools::install_github(&#39;rstudio/blogdown&#39;)
 &amp;lt;/html&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Commit and push it, and it should work out in a little bit.&lt;/p&gt;
+&lt;p&gt;Obviously you want to change all the &lt;code&gt;sfeng77&lt;/code&gt; to your user name in there if you don&amp;rsquo;t want all your readers redirected to my blog. Commit and push it, and it should work out in a little bit.&lt;/p&gt;
 
 &lt;h2 id=&#34;patience-is-a-virtue&#34;&gt;Patience is a virtue&lt;/h2&gt;
 
@@ -106,7 +106,7 @@ devtools::install_github(&#39;rstudio/blogdown&#39;)
 
 &lt;p&gt;The academia themed homepage is built of widgets, and you can remove the widgets you don&amp;rsquo;t like by deleting the corresponding &lt;code&gt;md&lt;/code&gt; file from &lt;code&gt;content/home/&lt;/code&gt;. If you want to delete a specific post, just remove it from &lt;code&gt;content/post&lt;/code&gt;. The images you want to referece should be in &lt;code&gt;static/img&lt;/code&gt; directory.&lt;/p&gt;
 
-&lt;p&gt;After you&amp;rsquo;ve made the changes, build the site and push it to github. Have fun with it!&lt;/p&gt;
+&lt;p&gt;After you&amp;rsquo;ve made the changes, &lt;strong&gt;MAKE SURE&lt;/strong&gt; you build the site and push it to github. Have fun with it!&lt;/p&gt;
 
 &lt;h2 id=&#34;some-more-reference&#34;&gt;Some more Reference&lt;/h2&gt;
 

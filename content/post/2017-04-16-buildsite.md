@@ -71,7 +71,7 @@ Add a `index.html` that redirects the visitor to `https://YOUR-USER-NAME.github.
     </body>
 </html>
 ```
-Commit and push it, and it should work out in a little bit.  
+Obviously you want to change all the `sfeng77` to your user name in there if you don't want all your readers redirected to my blog. Commit and push it, and it should work out in a little bit.  
 
 ## Patience is a virtue
 Sometimes it'll take a while before the changes are reflected on github pages.
@@ -84,7 +84,7 @@ blogdown::new_post("POST-TITLE")
 
 The academia themed homepage is built of widgets, and you can remove the widgets you don't like by deleting the corresponding `md` file from `content/home/`. If you want to delete a specific post, just remove it from `content/post`. The images you want to referece should be in `static/img` directory.   
 
-After you've made the changes, build the site and push it to github. Have fun with it!
+After you've made the changes, **MAKE SURE** you build the site and push it to github. Have fun with it! 
 
 
 ## Some more Reference
