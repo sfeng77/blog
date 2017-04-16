@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Sheng Feng</title>
-    <link>/categories/</link>
+    <link>blog/categories/</link>
     <description>Recent content in Categories on Sheng Feng</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Sheng Feng</copyright>
-    <atom:link href="/categories/" rel="self" type="application/rss+xml" />
+    <atom:link href="blog/categories/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>R</title>
-      <link>/categories/r/</link>
+      <link>blog/categories/r/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
       
-      <guid>/categories/r/</guid>
+      <guid>blog/categories/r/</guid>
       <description></description>
     </item>
     
