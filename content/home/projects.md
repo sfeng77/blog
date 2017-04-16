@@ -2,7 +2,7 @@
 # Projects widget.
 # Note: this widget will only display if `content/project/` contains projects.
 
-date = "2016-04-20T00:00:00"
+date = "2017-04-15T00:00:00"
 draft = false
 
 title = "Projects"
@@ -26,12 +26,21 @@ view = 1
   tag = "*"
   
 [[filter]]
-  name = "Deep Learning"
-  tag = ".deep-learning"
+  name = "GPU"
+  tag = ".gpu"
+
+[[filter]]
+  name = "Xeon Phi"
+  tag = ".phi"
+
+[[filter]]
+  name = "Physics"
+  tag = ".physics"
+
 
 [[filter]]
   name = "Other"
   tag = ".demo"
-
+  
 +++
 

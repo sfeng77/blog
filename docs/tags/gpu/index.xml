@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gpu on Sheng Feng</title>
+    <link>/tags/gpu/</link>
+    <description>Recent content in Gpu on Sheng Feng</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Sheng Feng</copyright>
+    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/gpu/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>GeauxIsing</title>
+      <link>/project/geauxising/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/project/geauxising/</guid>
+      <description>
+
+&lt;p&gt;This project is sponsered by LA-SIGMA.&lt;/p&gt;
+
+&lt;h2 id=&#34;released-package&#34;&gt;Released Package&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.institute.loni.org/lasigma/package/ising/&#34; target=&#34;_blank&#34;&gt;http://www.institute.loni.org/lasigma/package/ising/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;purpose&#34;&gt;Purpose&lt;/h2&gt;
+
+&lt;p&gt;3d Edwards-Anderson Model simulation&lt;/p&gt;
+
+&lt;h2 id=&#34;systems&#34;&gt;Systems&lt;/h2&gt;
+
+&lt;p&gt;This package has been tuned for NVidia Graphics processing units (GPUs).&lt;/p&gt;
+
+&lt;h2 id=&#34;contents&#34;&gt;Contents&lt;/h2&gt;
+
+&lt;p&gt;This package contains the source code and sample data.&lt;/p&gt;
+
+&lt;h2 id=&#34;acknowledgments&#34;&gt;Acknowledgments&lt;/h2&gt;
+
+&lt;p&gt;The accelerator ports of this code were developed by Ye Fang, Sheng Feng, Ka-Ming Tam, Zhifeng Yun, Juana Moreno, J. Ramanujam, Mark Jarrell.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
