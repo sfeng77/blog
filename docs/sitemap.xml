@@ -5,7 +5,7 @@
     
     <url>
     
-      <loc>blog/tags/academic/</loc>
+      <loc>/tags/academic/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -14,7 +14,7 @@
     
     <url>
     
-      <loc>blog/post/</loc>
+      <loc>/post/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -23,7 +23,7 @@
     
     <url>
     
-      <loc>blog/publication/</loc>
+      <loc>/publication/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -32,7 +32,7 @@
     
     <url>
     
-      <loc>blog/project/cthyb/</loc>
+      <loc>/project/cthyb/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     </url>
     
@@ -41,7 +41,7 @@
     
     <url>
     
-      <loc>blog/project/geauxising/</loc>
+      <loc>/project/geauxising/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     </url>
     
@@ -50,7 +50,7 @@
     
     <url>
     
-      <loc>blog/project/krylov/</loc>
+      <loc>/project/krylov/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     </url>
     
@@ -59,7 +59,7 @@
     
     <url>
     
-      <loc>blog/post/getting-started/</loc>
+      <loc>/post/getting-started/</loc>
       <lastmod>2016-04-20T12:00:00+00:00</lastmod>
     </url>
     
@@ -68,7 +68,7 @@
     
     <url>
     
-      <loc>blog/post/widgets/</loc>
+      <loc>/post/widgets/</loc>
       <lastmod>2016-04-20T11:00:00+00:00</lastmod>
     </url>
     
@@ -77,7 +77,7 @@
     
     <url>
     
-      <loc>blog/post/managing-content/</loc>
+      <loc>/post/managing-content/</loc>
       <lastmod>2016-04-20T11:00:00+00:00</lastmod>
     </url>
     
@@ -86,7 +86,7 @@
     
     <url>
     
-      <loc>blog/post/writing-markdown-latex/</loc>
+      <loc>/post/writing-markdown-latex/</loc>
       <lastmod>2016-04-20T10:00:00+00:00</lastmod>
     </url>
     
@@ -95,7 +95,7 @@
     
     <url>
     
-      <loc>blog/post/2015-07-23-r-rmarkdown/</loc>
+      <loc>/post/2015-07-23-r-rmarkdown/</loc>
       <lastmod>2015-07-23T21:13:14-05:00</lastmod>
     </url>
     
@@ -104,7 +104,7 @@
     
     <url>
     
-      <loc>blog/publication/gpu-pt/</loc>
+      <loc>/publication/gpu-pt/</loc>
       <lastmod>2014-05-24T00:00:00+00:00</lastmod>
     </url>
     
@@ -113,7 +113,7 @@
     
     <url>
     
-      <loc>blog/post/migrate-from-jekyll/</loc>
+      <loc>/post/migrate-from-jekyll/</loc>
       <lastmod>2014-03-10T00:00:00+00:00</lastmod>
     </url>
     
@@ -122,7 +122,7 @@
     
     <url>
     
-      <loc>blog/publication_types/2/</loc>
+      <loc>/publication_types/2/</loc>
       <lastmod>2014-05-24T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -132,7 +132,7 @@
     
     <url>
     
-      <loc>blog/categories/</loc>
+      <loc>/categories/</loc>
       <priority>0</priority>
     </url>
     
@@ -141,7 +141,7 @@
     
     <url>
     
-      <loc>blog/tags/gpu/</loc>
+      <loc>/tags/gpu/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -151,7 +151,7 @@
     
     <url>
     
-      <loc>blog/tags/hugo/</loc>
+      <loc>/tags/hugo/</loc>
       <lastmod>2016-04-20T12:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -161,7 +161,7 @@
     
     <url>
     
-      <loc>blog/tags/jekyll/</loc>
+      <loc>/tags/jekyll/</loc>
       <lastmod>2014-03-10T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -171,7 +171,7 @@
     
     <url>
     
-      <loc>blog/tags/phi/</loc>
+      <loc>/tags/phi/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -181,7 +181,7 @@
     
     <url>
     
-      <loc>blog/tags/physics/</loc>
+      <loc>/tags/physics/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -191,7 +191,7 @@
     
     <url>
     
-      <loc>blog/tags/plot/</loc>
+      <loc>/tags/plot/</loc>
       <lastmod>2015-07-23T21:13:14-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -201,7 +201,7 @@
     
     <url>
     
-      <loc>blog/project/</loc>
+      <loc>/project/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -211,7 +211,7 @@
     
     <url>
     
-      <loc>blog/publication_types/</loc>
+      <loc>/publication_types/</loc>
       <lastmod>2014-05-24T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -221,7 +221,7 @@
     
     <url>
     
-      <loc>blog/categories/r/</loc>
+      <loc>/categories/r/</loc>
       <lastmod>2015-07-23T21:13:14-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -231,7 +231,7 @@
     
     <url>
     
-      <loc>blog/tags/r-markdown/</loc>
+      <loc>/tags/r-markdown/</loc>
       <lastmod>2015-07-23T21:13:14-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -241,7 +241,7 @@
     
     <url>
     
-      <loc>blog/tags/regression/</loc>
+      <loc>/tags/regression/</loc>
       <lastmod>2015-07-23T21:13:14-05:00</lastmod>
       <priority>0</priority>
     </url>
@@ -251,7 +251,7 @@
     
     <url>
     
-      <loc>blog/</loc>
+      <loc>/</loc>
       <lastmod>2017-04-15T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -261,7 +261,7 @@
     
     <url>
     
-      <loc>blog/tags/</loc>
+      <loc>/tags/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
