@@ -11,7 +11,7 @@
     <atom:link href="/blog/categories/r/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Build a site like this using Blogdown and Github</title>
+      <title>Build a site like this using blogdown and github</title>
       <link>https://sfeng77.github.io/blog/post/2017-04-16-buildsite/</link>
       <pubDate>Sun, 16 Apr 2017 00:00:00 +0000</pubDate>
       
@@ -93,10 +93,6 @@ devtools::install_github(&#39;rstudio/blogdown&#39;)
 
 &lt;p&gt;Obviously you want to change all the &lt;code&gt;sfeng77&lt;/code&gt; to your user name in there if you don&amp;rsquo;t want all your readers redirected to my blog. Commit and push it, and it should work out in a little bit.&lt;/p&gt;
 
-&lt;h2 id=&#34;patience-is-a-virtue&#34;&gt;Patience is a virtue&lt;/h2&gt;
-
-&lt;p&gt;Sometimes it&amp;rsquo;ll take a while before the changes are reflected on github pages.&lt;/p&gt;
-
 &lt;h2 id=&#34;adding-changing-deleting-content&#34;&gt;Adding/Changing/Deleting content&lt;/h2&gt;
 
 &lt;p&gt;You can add content by adding markdown or R Markdown files into the sub-directories in &lt;code&gt;content&lt;/code&gt; directory. There are a bunch of examples that you can follow. You can also use&lt;/p&gt;
@@ -114,9 +110,9 @@ Use &lt;code&gt;blogdown:::serve_site()&lt;/code&gt; to get a self-updating prev
 &lt;p&gt;The most common mistake I&amp;rsquo;ve been making is&lt;br /&gt;
 * Not building the site after a local preview;&lt;br /&gt;
 * Not setting the &lt;code&gt;baseurl&lt;/code&gt; properly.&lt;br /&gt;
-So check those if your pages are not behaving.&lt;/p&gt;
+So check those if your pages are not behaving. Sometimes it&amp;rsquo;ll take a while before the changes are reflected on github pages.&lt;/p&gt;
 
-&lt;h2 id=&#34;some-more-reference&#34;&gt;Some more Reference&lt;/h2&gt;
+&lt;h2 id=&#34;some-more-reference&#34;&gt;Some more reference&lt;/h2&gt;
 
 &lt;p&gt;This is where I learned to get github pages working:
 &lt;a href=&#34;http://applyr.blogspot.com/2017/01/blogging-about-r-from-r-studio.html&#34; target=&#34;_blank&#34;&gt;http://applyr.blogspot.com/2017/01/blogging-about-r-from-r-studio.html&lt;/a&gt;&lt;/p&gt;

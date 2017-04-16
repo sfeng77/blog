@@ -1,5 +1,5 @@
 ---
-title: Build a site like this using Blogdown and Github
+title: Build a site like this using blogdown and github
 author: Sheng
 date: '2017-04-16'
 slug: ''
@@ -73,8 +73,6 @@ Add a `index.html` that redirects the visitor to `https://YOUR-USER-NAME.github.
 ```
 Obviously you want to change all the `sfeng77` to your user name in there if you don't want all your readers redirected to my blog. Commit and push it, and it should work out in a little bit.  
 
-## Patience is a virtue
-Sometimes it'll take a while before the changes are reflected on github pages.
 
 ## Adding/Changing/Deleting content
 You can add content by adding markdown or R Markdown files into the sub-directories in `content` directory. There are a bunch of examples that you can follow. You can also use 
@@ -93,9 +91,10 @@ After you've made the changes, **MAKE SURE** you build the site and push it to g
 The most common mistake I've been making is  
 * Not building the site after a local preview;  
 * Not setting the `baseurl` properly.   
-So check those if your pages are not behaving.
+So check those if your pages are not behaving. Sometimes it'll take a while before the changes are reflected on github pages.
 
-## Some more Reference
+
+## Some more reference
 This is where I learned to get github pages working:
 http://applyr.blogspot.com/2017/01/blogging-about-r-from-r-studio.html
 
