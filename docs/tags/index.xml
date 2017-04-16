@@ -2,57 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Sheng Feng</title>
-    <link>https://sfeng77.github.io/blog/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on Sheng Feng</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Sheng Feng</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/blog/tags/" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Content tagged as &#39;Academic&#39;</title>
-      <link>https://sfeng77.github.io/blog/tags/academic/</link>
+      <link>/tags/academic/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://sfeng77.github.io/blog/tags/academic/</guid>
+      <guid>/tags/academic/</guid>
       <description>&lt;p&gt;Here is a list of all the content that has been tagged as &lt;em&gt;academic&lt;/em&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Gpu</title>
-      <link>https://sfeng77.github.io/blog/tags/gpu/</link>
+      <link>/tags/gpu/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://sfeng77.github.io/blog/tags/gpu/</guid>
+      <guid>/tags/gpu/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Phi</title>
-      <link>https://sfeng77.github.io/blog/tags/phi/</link>
+      <link>/tags/phi/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://sfeng77.github.io/blog/tags/phi/</guid>
+      <guid>/tags/phi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Physics</title>
-      <link>https://sfeng77.github.io/blog/tags/physics/</link>
+      <link>/tags/physics/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://sfeng77.github.io/blog/tags/physics/</guid>
+      <guid>/tags/physics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R</title>
-      <link>https://sfeng77.github.io/blog/tags/r/</link>
+      <link>/tags/r/</link>
       <pubDate>Sun, 16 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://sfeng77.github.io/blog/tags/r/</guid>
+      <guid>/tags/r/</guid>
       <description></description>
     </item>
     

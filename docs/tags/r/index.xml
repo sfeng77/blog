@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R on Sheng Feng</title>
-    <link>https://sfeng77.github.io/blog/tags/r/</link>
+    <link>/tags/r/</link>
     <description>Recent content in R on Sheng Feng</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Sheng Feng</copyright>
     <lastBuildDate>Sun, 16 Apr 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/blog/tags/r/" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/r/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Build a site like this using Blogdown and Github</title>
-      <link>https://sfeng77.github.io/blog/post/2017-04-16-buildsite/</link>
+      <link>/post/2017-04-16-buildsite/</link>
       <pubDate>Sun, 16 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://sfeng77.github.io/blog/post/2017-04-16-buildsite/</guid>
+      <guid>/post/2017-04-16-buildsite/</guid>
       <description>
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/rstudio/blogdown&#34; target=&#34;_blank&#34;&gt;Blogdown&lt;/a&gt; is a R package that generates static websites using &lt;a href=&#34;http://rmarkdown.rstudio.com&#34; target=&#34;_blank&#34;&gt;R Markdown&lt;/a&gt; and &lt;a href=&#34;https://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt;. As a R user myself I already R Markdown to generate reproducible reports, so when I want to build a personal site I quickly adopted this.
