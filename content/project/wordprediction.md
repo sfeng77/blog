@@ -3,10 +3,10 @@
 date = "2016-04-27"
 
 # Project title.
-title = "Word Prediction"
+title = "Predictive Typing Suggestion"
 
 # Project summary to display on homepage.
-summary = "A N-GRAM based word prediction project."
+summary = "NLP with text corpus from various sources and build a predictive n-gram model to provide typing suggestions."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "wordcloud.png"
