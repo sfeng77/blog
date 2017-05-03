@@ -13,7 +13,7 @@ image_preview = "Raid_Emblem.png"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = [""]
+tags = ["web"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = "http://kuzida.us"

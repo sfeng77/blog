@@ -45,5 +45,8 @@ view = 1
   name = "Other"
   tag = ".demo"
   
+ [[filter]]
+  name = "Web Development"
+  tag = ".web"
 +++
 
