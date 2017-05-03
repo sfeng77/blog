@@ -9,7 +9,7 @@ title = "Kuzida.us"
 summary = "A website to query Destiny Raid Completion status, built with Javascript and Bootstrap 4."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "wordcloud.png"
+image_preview = "Raid_Emblem.png"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
