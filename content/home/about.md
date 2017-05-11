@@ -12,8 +12,9 @@ weight = 1
 # List your academic interests.
 [interests]
   interests = [
+    "Software Engineering",
+    "Computational Science",
     "High-Performance Computing",
-    "Computational Physics",
     "Data Science"
   ]
 
