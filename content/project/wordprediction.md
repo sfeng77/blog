@@ -30,7 +30,7 @@ image = "wordcloud.png"
 This is the Capstone Project for Data Science Specialization by Johns Hopkins University on Coursera.
 
 ## Project Page  
-https://sfeng77.github.io/wordPrediction/capstone.html
+https://sfeng.shinyapps.io/WordPrediction/
 
 ## Github Project
 https://github.com/sfeng77/wordPrediction
