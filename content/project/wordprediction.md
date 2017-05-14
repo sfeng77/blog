@@ -36,7 +36,8 @@ https://sfeng.shinyapps.io/WordPrediction/
 https://github.com/sfeng77/wordPrediction
 
 
-
+## Milestone Report
+http://rpubs.com/sfeng/milestone
 
 
 
