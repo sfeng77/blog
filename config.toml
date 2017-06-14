@@ -24,8 +24,8 @@ defaultContentLanguageInSubdir = false
 
 [params]
   name = "Sheng Feng"
-  role = "Ph.D. in Computational Physics"
-  organization = "Louisiana State University"
+  role = "Software Development Engineer"
+  organization = "Microsoft"
   organization_url = ""
   avatar = "portrait.jpg"
   email = "sfeng77@gmail.com"
